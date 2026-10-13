@@ -1,5 +1,18 @@
 # Portfolio 1: Database Design and Modelling - RanGo E-commerce
 
+## 1. Case Study Description
+[
+CASE STUDY DESCRIPTION & REQUIREMENTS ANALYSIS
+Case Study: E-commerce Platform
+Organization Name: Rango
+Nature of Business: A digital e-commerce marketplace enabling customers to browse product inventories, manage shopping carts, place online orders, process payments, and track shipments.
+Database Users: Customers (browse and buy), Warehouse Staff (update stock and fulfillment status), and System Administrators (manage users and system configuration).   
+Major Data Stored: Customers, Categories, Products, Orders, Order Items, Payments, and Deliveries
+Key Operations: Registering customer accounts, updating product stock quantities, placing orders, executing transactions, and retrieving order history.   
+]
+
+
+## 2. Entity-Relationship (ER) Diagram
 Below is the Entity-Relationship Diagram for the RanGo database:
 
 ```mermaid
@@ -40,4 +53,7 @@ erDiagram
         int quantity
         decimal unit_price
     }
+
+
+
 
