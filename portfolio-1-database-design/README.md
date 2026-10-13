@@ -89,6 +89,5 @@ The conceptual ER model is translated into the following logical relational sche
 •	Product id: INT (Foreign Key references Products.product_id)
 •	Quantity: INT (NOT NULL, CHECK > 0)
 •	Unit price: DECIMAL(10,2) (NOT NULL)
-
 ]
 
