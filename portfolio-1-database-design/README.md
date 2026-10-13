@@ -53,7 +53,7 @@ erDiagram
         int quantity
         decimal unit_price
     }
-
+```
 
 ## 3. Relational Schema Definition
 [
