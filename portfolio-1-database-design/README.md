@@ -52,11 +52,10 @@ erDiagram
 ```
 
 ## 3. Relational Schema Definition
-## 3. Relational Schema Definition
 The conceptual ER model is translated into the following logical relational schema:
 
 1. **Customers Table:** Stores registered user profile details.
-   * `customer_id` : INT (Primary Key)
+   * `customer_id`: INT (Primary Key)
    * `first_name` : VARCHAR(50) (NOT NULL)
    * `last_name` : VARCHAR(50) (NOT NULL)
    * `email` : VARCHAR(100) (UNIQUE, NOT NULL)
