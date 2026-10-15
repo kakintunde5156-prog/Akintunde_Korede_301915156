@@ -19,7 +19,7 @@
 ### 2. Business Rules
 * **Rule 1 (Customers & Orders):** One customer can place many orders, but each order belongs to only one customer.
 * **Rule 2 (Categories & Products):** One category can have many products, but each product belongs to only one category.
-* **Rule 3 (Orders & Products):** An order can contain many products, and a product can appear in many orders (managed through the `Order_Items` table).
+* **Rule 3 (Orders & Products):** An order can contain many products, and a product can appear in many orders (managed through the `Order Items` table).
 * **Rule 4 (Data Constraints):** 
   * Every table must have a unique ID (Primary Key).
   * Customer email addresses must be unique (no duplicate accounts).
