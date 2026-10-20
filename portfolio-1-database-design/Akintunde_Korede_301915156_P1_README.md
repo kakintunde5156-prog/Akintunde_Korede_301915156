@@ -8,25 +8,7 @@
 * **Key Operations:** Registering customer accounts, updating product stock quantities, placing orders, executing transactions, and retrieving order history.  
 
 ## Entity Definitions and Business Rules
-
-### 1. Entity Definitions
-* **Customer:** A registered user who buys items on RanGo.
-* **Category:** A group used to organize products (e.g., Electronics).
-* **Product:** An item available for sale.
-* **Order:** A purchase record created by a customer.
-* **Order_Item:** A bridge table that connects orders to specific products and tracks quantities.
-
-### 2. Business Rules
-* **Rule 1 (Customers & Orders):** One customer can place many orders, but each order belongs to only one customer.
-* **Rule 2 (Categories & Products):** One category can have many products, but each product belongs to only one category.
-* **Rule 3 (Orders & Products):** An order can contain many products, and a product can appear in many orders (managed through the `Order Items` table).
-* **Rule 4 (Data Constraints):** 
-  * Every table must have a unique ID (Primary Key).
-  * Customer email addresses must be unique (no duplicate accounts).
-  * Product stock and order quantities cannot be negative.
-
-## 3. Database Design Details
-### Entities
+### Entity Definitions
 I chose five entities for my e-commerce platform:
 
 | Entity | Information stored |
@@ -57,6 +39,15 @@ I chose five entities for my e-commerce platform:
 | **customer -> order** | One to many | A customer can place zero or more orders; each order belongs to exactly one customer. |
 | **order -> order_item** | One to many | An order contains one or more order items; each order item belongs to exactly one order. |
 | **product -> order_item** | One to many | A product can appear in zero or more order items; each order item refers to exactly one product. |
+
+###  Business Rules
+* **Rule 1 (Customers & Orders):** One customer can place many orders, but each order belongs to only one customer.
+* **Rule 2 (Categories & Products):** One category can have many products, but each product belongs to only one category.
+* **Rule 3 (Orders & Products):** An order can contain many products, and a product can appear in many orders (managed through the `Order Items` table).
+* **Rule 4 (Data Constraints):** 
+  * Every table must have a unique ID (Primary Key).
+  * Customer email addresses must be unique (no duplicate accounts).
+  * Product stock and order quantities cannot be negative.
 
 ## Entity-Relationship (ER) Diagram
 Below is the Entity-Relationship Diagram for the RanGo database:
