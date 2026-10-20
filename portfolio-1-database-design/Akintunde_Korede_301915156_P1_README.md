@@ -37,7 +37,7 @@ I chose five entities for my e-commerce platform:
 | **order** | A high-level purchase record placed by a customer |
 | **order_item** | An individual line item detailing product quantities and prices within an order |
 
-*Design note:* I kept `product` and `order_item` separate. For example, an order can contain three different products; I record the order summary once in `order` and use `order_item` to list each individual product bought, its quantity, and its unit price at the time of purchase.
+*Design note:* I kept `product` and `order_item` separate. For example, an order can contain three different products. I record the order summary once in `order` and use `order_item` to list each individual product bought, its quantity, and its unit price at the time of purchase.
 
 ### Attributes and Keys
 *In the tables below, **unique** means no repeated values. **Required** means the value cannot be `NULL` (missing).*
