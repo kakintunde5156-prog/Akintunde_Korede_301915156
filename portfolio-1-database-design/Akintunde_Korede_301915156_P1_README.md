@@ -24,3 +24,11 @@
   * Every table must have a unique ID (Primary Key).
   * Customer email addresses must be unique (no duplicate accounts).
   * Product stock and order quantities cannot be negative.
+
+### Identify entities, attributes, keys and relationships
+Entity,Information stored
+customer,A registered buyer on the platform
+category,A classification group for products
+product,A specific item available for purchase
+order,A high-level purchase record placed by a customer
+order_item,An individual line item detailing product quantities and prices within an order
