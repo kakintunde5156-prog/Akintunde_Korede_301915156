@@ -1,6 +1,6 @@
 # Portfolio 1: Database Design and Modelling
 
-## 1. Case Study Description
+## Case Study Description
 * **Organisation Name / Scenario:** RanGo (Online E-commerce Platform)
 * **Nature of Business:** A digital e-commerce marketplace enabling customers to browse product inventories, manage shopping carts, place online orders, process payments, and track shipments.
 * **Database Users:** Customers (browse and buy), Warehouse Staff (update stock and fulfillment status), and System Administrators (manage users and system configuration).
@@ -9,14 +9,14 @@
 
 ## Entity Definitions and Business Rules
 
-### 2. Entity Definitions
+### 1. Entity Definitions
 * **Customer:** A registered user who buys items on RanGo.
 * **Category:** A group used to organize products (e.g., Electronics).
 * **Product:** An item available for sale.
 * **Order:** A purchase record created by a customer.
 * **Order_Item:** A bridge table that connects orders to specific products and tracks quantities.
 
-### 3. Business Rules
+### 2. Business Rules
 * **Rule 1 (Customers & Orders):** One customer can place many orders, but each order belongs to only one customer.
 * **Rule 2 (Categories & Products):** One category can have many products, but each product belongs to only one category.
 * **Rule 3 (Orders & Products):** An order can contain many products, and a product can appear in many orders (managed through the `Order Items` table).
@@ -25,7 +25,7 @@
   * Customer email addresses must be unique (no duplicate accounts).
   * Product stock and order quantities cannot be negative.
 
-## 4. Database Design Details
+## 3. Database Design Details
 ### Entities
 I chose five entities for my e-commerce platform:
 
