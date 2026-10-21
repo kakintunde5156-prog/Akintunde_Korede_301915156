@@ -2,13 +2,13 @@
 
 | File | Contents |
 | :--- | :--- |
-| [Design](portfolio-1-database-design/Akintunde_Korede_301915156_P1_Entities_Attributes_Keys_and_Relationships.md) | Entities, attributes, keys and relationships for RanGo. |
-| [ER diagram](portfolio-1-database-design/Akintunde_Korede_301915156_P1_ERDiagram.md) | The five e-commerce tables and their relationships. |
-| [Normalisation](portfolio-1-database-design/Akintunde_Korede_301915156_P1_Normalization.md) | Example tables showing 1NF, 2NF and 3NF. |
-| [Schema](portfolio-1-database-design/Akintunde_Korede_301915156_P1_Schema.sql) | PostgreSQL table definitions, keys and constraints. |
-| [Sample records](portfolio-1-database-design/Akintunde_Korede_301915156_P1_SampleData.sql) | Fictional customers, categories, products, orders, and order items. |
-| [Constraint tests](portfolio-1-database-design/Akintunde_Korede_301915156_P1_ConstraintTests.sql) | Invalid inserts and the final count query. |
-| [Screenshots](portfolio-1-database-design/screenshots/) | Saved commands and execution results. |
+| [Design](Akintunde_Korede_301915156_P1_Entities_Attributes_Keys_and_Relationships.md) | Entities, attributes, keys and relationships for RanGo. |
+| [ER diagram](Akintunde_Korede_301915156_P1_ERDiagram.md) | The five e-commerce tables and their relationships. |
+| [Normalisation](Akintunde_Korede_301915156_P1_Normalization.md) | Example tables showing 1NF, 2NF and 3NF. |
+| [Schema](Akintunde_Korede_301915156_P1_Schema.sql) | PostgreSQL table definitions, keys and constraints. |
+| [Sample records](Akintunde_Korede_301915156_P1_SampleData.sql) | Fictional customers, categories, products, orders, and order items. |
+| [Constraint tests](Akintunde_Korede_301915156_P1_ConstraintTests.sql) | Invalid inserts and the final count query. |
+| [Screenshots](screenshots/) | Saved commands and execution results. |
 
 ## Implementation
 
