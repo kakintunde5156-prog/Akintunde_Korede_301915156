@@ -2,6 +2,7 @@
 
 | File | Contents |
 | :--- | :--- |
+| [Description](Akintunde_Korede_301915156_P1_Case_Study_Description.md/) | Case Study Description. |
 | [Design](Akintunde_Korede_301915156_P1_Entities_Attributes_Keys_and_Relationships.md) | Entities, attributes, keys and relationships for RanGo. |
 | [ER diagram](Akintunde_Korede_301915156_P1_ERDiagram.md) | The five e-commerce tables and their relationships. |
 | [Normalisation](Akintunde_Korede_301915156_P1_Normalization.md) | Example tables showing 1NF, 2NF and 3NF. |
